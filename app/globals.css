@@ -25,7 +25,20 @@
 
 
 --font-inconsolata: var(--font-inconsolata), monospace;
+--font-roboto: var(--font-roboto), monospace;
+
+
+
+--text-fluid-titleSection: clamp(3rem, 6vw + 1rem, 7rem);
+--text-fluid-linkNav: clamp(2.5rem, 2vw + 1rem, 4rem);
+--text-fluid-stepTitle: clamp(1.25rem, 2.5vw, 1.75rem);
+
 }
 
+
+
+body {
+      font-size: 16px;
+}
 
 
