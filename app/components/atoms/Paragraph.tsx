@@ -7,6 +7,6 @@ export type paragraphProps = {
 
 export default function Paragraph({children, className}: paragraphProps) {
   return (
-    <p className={`  font-inconsolata ${className} `}> {children} </p>
+    <p className={` text-muted font-inconsolata ${className} `}> {children} </p>
   )
 }
