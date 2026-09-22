@@ -1,7 +1,9 @@
-import PageBuilding from "./building/page";
+import PageHome from "./pageHome/page";
 
 export default function Home() {
-  return (
-  <PageBuilding />
-  );
+      return (
+            <>
+            <PageHome />
+            </>
+      );
 }

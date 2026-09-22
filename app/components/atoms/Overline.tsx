@@ -7,6 +7,6 @@ export type overlineProps = {
 
 export default function Overline( {text, className}: overlineProps ) {
   return (
-    <p className={` uppercase text-xs ${className} `}> {text} </p>
+    <p className={` font-inconsolata font-bold text-muted tracking-widest uppercase text-sm ${className} `}> {text} </p>
   )
 }

@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --cream: #F7F4EF;
+  --cream: #f9f7f2;
   --foreground: #eae3d8;
-  --accent: #b5602c;
+  --accent: #c14a00;
   --border: #d9d2c4;
-  --muted: #78716c;
+  --muted: #615c59;
   --muted-light: #c6bfb5;
   --golf: #c9a063;
   --black: #1c1917;
@@ -25,7 +25,21 @@
 
 
 --font-inconsolata: var(--font-inconsolata), monospace;
+--font-roboto: var(--font-roboto), monospace;
+
+
+
+--text-fluid-titleSection: clamp(3rem, 6vw + 1rem, 7rem);
+--text-fluid-linkNav: clamp(2.5rem, 2vw + 1rem, 4rem);
+--text-fluid-stepTitle: clamp(1.5rem, 2.5vw, 1.75rem);
+--text-fluid-subtitle: clamp(2rem, 4.5vw, 3.5rem);
+
 }
 
+
+
+body {
+      font-size: 16px;
+}
 
 
